@@ -1,0 +1,29 @@
+#включить <iostream>
+использование пространства имен std;
+
+int main() {
+    setlocale(LC_ALL, "rus");
+    int n, i, j, q;
+    int позиция = 0;
+ cout << "Введите размер массива: "; cin >> n;
+    int* arr = new int[n]; 
+
+    for (int i = 0; i < n; i++) 
+    {
+ arr[i] = rand() % 100; 
+ cout << arr[i] << "  "; 
+    }
+ cout << endl;
+ cout << "Введите число которые надо найти: "; cin >> q;
+    if (arr[n - 1] != q) 
+    {
+ arr[n - 1] = q; 
+        for (; arr[position] != q; position++); 
+ position++; 
+    }
+    еще {
+ cout << n;
+        возврат 0;
+    }
+ cout << "Позиция введенного числа равна: " << position; 
+}
